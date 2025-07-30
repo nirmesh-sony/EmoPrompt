@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <div class="text-bg-info p-3 mt-4 col-md-12" style="height: 150;">
-  <h1 style="text-align: center;">EmoFlux TTS: A Unified Framework for Emotional Voice Synthesis Using Cross-Modal Prompts and Flow Matching Diffusion Transformers</h1>
+  <h1 style="text-align: center;">EmoFlow TTS: Conditional Flow based Emotional Voice Synthesis using Mixture of Multimodal Prompts</h1>
 </div>
 
 <div class="mt-4 col-md-12" style="text-align: center;" >
@@ -16,8 +16,8 @@
               margin-right: auto;
               width: 70%;"
         src="./block_diag3_DiT.png"
-        alt="Proposed EmoFlux TTS">
-    <figcaption>Figure 1. Block diagram of the proposed EmoFlux TTS. </figcaption>
+        alt="Proposed EmoFlow TTS">
+    <figcaption>Figure 1. Block diagram of the proposed EmoFlow TTS. </figcaption>
 </figure>
 </div>
 
@@ -30,7 +30,7 @@
               margin-right: auto;
               width: 70%;"
         src="./SA_conv_2.png"
-        alt="Proposed EmoFlux TTS">
+        alt="Proposed EmoFlow TTS">
     <figcaption>Figure 2. Block diagram of the Style Adaptive Fusion Network. </figcaption>
 </figure>
 </div>
@@ -42,7 +42,7 @@
 <table  class="table">
   <tr>
     <th width="20%">Audio Prompt</th>
-    <th width="20%">EmoFlux TTS</th>
+    <th width="20%">EmoFlow TTS</th>
     <th width="20%">Ablation 1</th>
     <th width="20%">Ablation 2</th>
     <th width="20%">Ablation 3</th>
@@ -117,7 +117,7 @@
     <th width="40%">Text</th>
     <th width="20%">Visual Prompt</th>
     <th width="10%">Audio Prompt</th>
-    <th width="10%">EmoFlux TTS</th>
+    <th width="10%">EmoFlow TTS</th>
     <th width="10%">Ablation 1</th>
     <th width="10%">Ablation 2</th>
     <th width="10%">Ablation 3</th>
@@ -205,7 +205,7 @@
 	        <th width="40%"> Text</th>
                 <th width="20%" > Audio Prompt </th>
                 <th width="20%"> Multimodal MMTTS</th>
-                <th width="20%"> Proposed EmoFlux TTS</th>
+                <th width="20%"> Proposed EmoFlow TTS</th>
             </tr>
             <tr>
 		<td style="width:250px"> He protected her, and she strengthened him. </td>
@@ -223,7 +223,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_1.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_1.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -246,7 +246,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_2.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_2.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -269,7 +269,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_3.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_3.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -288,7 +288,7 @@
 	        <th width="40%"> Text</th>
                 <th width="20%" > Text Prompt </th>
                 <th width="20%"> Multimodal MMTTS</th>
-                <th width="20%"> Proposed EmoFlux TTS</th>
+                <th width="20%"> Proposed EmoFlow TTS</th>
             </tr>
             <tr>
 		<td style="width:250px"> Its yellow bristles, rather a mane than a head of hair, covered and concealed a lofty brow, evidently made to contain thought.
@@ -302,7 +302,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_4.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_4.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -320,7 +320,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_5.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_5.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -338,7 +338,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_6.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_6.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -357,7 +357,7 @@
 	        <th width="40%"> Text</th>
                 <th width="20%" > Visual Prompt </th>
                 <th width="20%"> Multimodal MMTTS</th>
-                <th width="20%"> Proposed EmoFlux TTS</th>
+                <th width="20%"> Proposed EmoFlow TTS</th>
             </tr>
             <tr>
 		<td style="width:250px"> In many of his poems death comes by train a strongly evocative visual image.
@@ -373,7 +373,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_7.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_7.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -392,7 +392,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_8.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_8.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -412,7 +412,7 @@
                 </td>
                 <td>
                     <audio controls style="width: 400px; height: 50px">
-                    <source src=".\Data\EmoFlux_9.wav" type="audio/wav">
+                    <source src=".\Data\EmoFlow_9.wav" type="audio/wav">
                     Your browser does not support the audio element.
                     </audio>
                 </td>
